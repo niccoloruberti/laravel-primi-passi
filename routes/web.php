@@ -19,3 +19,18 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('/chi-siamo', function () {
+    $data = [
+        'title' => 'Chi siamo'
+    ];
+    return view('chi-siamo', $data);
+});
+
+Route::get('/contatti', function () {
+    $data = [
+        'title' => 'Contatti'
+    ];
+    return view('contatti', $data);
+});
+
