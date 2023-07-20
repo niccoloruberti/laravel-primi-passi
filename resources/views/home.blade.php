@@ -7,6 +7,6 @@
         <title>Laravel</title>
     </head>
     <body>
-        Hello World!
+        {{ $title }}
     </body>
 </html>
